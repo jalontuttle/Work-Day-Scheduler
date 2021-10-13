@@ -11,10 +11,14 @@ textarea {
   color: #000000;
   border: 1px solid rgb(95, 95, 95);
   padding: 10px;
+  margin-bottom: 5px;
 }
 
 textarea:hover{
   border: 2px solid rgb(95, 95, 95);
+  font-weight: bold;
+  font-size: 125%;
+  transition: all 0.3s ease-in-out;
 }
 
 textarea:active{
@@ -49,6 +53,8 @@ textarea:active{
   color: white;
   margin-right: 3px;
   text-align: center;
+  margin-bottom: 5px;
+  border: 1px solid yellow;
 }
 
 .past {
@@ -72,8 +78,10 @@ textarea:active{
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-  height: 78px;
+  height: 68px;
   width: 65px;
+  position: relative;
+  bottom: 2px;
 }
 
 #saveBtn:hover {
