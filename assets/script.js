@@ -48,17 +48,12 @@ $(document).ready(function() {
 
             if( hour < thisHour){
                 $(this).addClass("past");
-                $(this).removeClass("present");
-                $(this).removeClass("future");
             } 
             else if (hour == thisHour){
-                $(this).removeClass("past");
                 $(this).addClass("present");
-                $(this).removeClass("past");
             } 
             else {
-                $(this).removeClass("past");
-                $(this).removeClass("present");
+
                 $(this).addClass("future");
             }
         })
